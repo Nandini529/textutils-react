@@ -50,20 +50,20 @@ function App() {
     <>
     {/* <Navbar title="TextUtils" aboutText="About TextUtils" /> */}
     {/* <Navbar/> */}
-    <Router>
+    {/* <Router> */}
     <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} />
     <Alert alert={alert}/>
     <div className="container">
-          <Routes>
-            <Route exact path="/about"element={<About mode={mode} />}>
-            </Route>
-            <Route exact path="/" element={<TextForm heading="Try TextUtils - word counter, character counter, remove extra spaces"  mode={mode} showAlert={showAlert} />}>
-            </Route>
-          </Routes>
+          {/* <Routes> */}
+            {/* <Route exact path="/about"element={<About mode={mode} />}> */}
+            {/* </Route> */}
+            {/* <Route exact path="/" element={<TextForm heading="Try TextUtils - word counter, character counter, remove extra spaces"  mode={mode} showAlert={showAlert} />}> */}
+            {/* </Route> */}
+          {/* </Routes> */}
     </div>
 
     
-    </Router>
+    {/* </Router> */}
     </> 
   );
 }
